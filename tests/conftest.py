@@ -1,9 +1,9 @@
 import sys
 import pytest
 
-from project_name import create_app
-from project_name.ext.commands import populate_db
-from project_name.ext.database import db
+from dms_epicor import create_app
+from dms_epicor.ext.commands import populate_db
+from dms_epicor.ext.database import db
 
 
 @pytest.fixture(scope="session")

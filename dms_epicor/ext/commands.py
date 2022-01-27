@@ -1,8 +1,8 @@
 import click
 
-from project_name.ext.auth import create_user
-from project_name.ext.database import db
-from project_name.models import Product
+from dms_epicor.ext.auth import create_user
+from dms_epicor.ext.database import db
+from dms_epicor.models import Product
 
 
 def create_db():
